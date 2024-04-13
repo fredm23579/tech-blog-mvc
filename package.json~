@@ -1,7 +1,7 @@
 {
-  "name": "travel-tales-exchange",
+  "name": "tech-blog-mvc",
   "version": "1.0.0",
-  "description": "travel blog",
+  "description": "tech blog",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,7 +10,7 @@
   },
   "keywords": [],
   "author": "Fred Motta",
-  "license": "ISC",
+  "license": "GNU",
   "dependencies": {
     "bcrypt": "^5.1.0",
     "connect-session-sequelize": "^7.1.7",
