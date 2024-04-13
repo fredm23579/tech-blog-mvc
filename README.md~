@@ -1,12 +1,14 @@
-# Travel Blog Website
+# Tech Blog MVC Website
 
 ## Description
 
-The travel-tales-exchange blog is a dynamic web application allowing users to share and comment on blog posts. It provides a platform for users to express their thoughts, opinions, and share information in a blog format. Built with a focus on user interaction and ease of use, the blog offers a clean and responsive interface for a seamless travel blogging experience.
+The Tech blog is a dynamic web application allowing users to share and comment on blog posts. It provides a platform for users to express their thoughts, opinions, and share information in a blog format. Built with a focus on user interaction and ease of use, the blog offers a clean and responsive interface for a seamless
+tech blogging experience.
 
 ## Live Demo
 
-Check out the live demo of the application here: [Travel Blog Live](https://travel-tales-exchange-50aa2535b133.herokuapp.com/login)
+Check out the live demo of the application here: [Tech Blog
+Live](https://tech-blog-mvc-50aa2535b133.herokuapp.com/login)
 
 Vision of the Application: ![Screenshot](public/img/clear-water-beaches-florida-2048x917.jpg)
 
@@ -49,7 +51,7 @@ DB_PASSWORD='your_password'
 
 ## Contributing
 
-Contributions to the Travel Tales Exchange Blog project are welcome!
+Contributions to the Tech Blog project are welcome!
 
 1. Fork the repository.
 2. Create a new branch for your feature (```git checkout -b feature/AmazingFeature```).
@@ -64,4 +66,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-© 2024 Travel Blog by [Fred Motta](https://github.com/fredm23579)
+© 2024 Tech Blog by [Fred Motta](https://github.com/fredm23579)
