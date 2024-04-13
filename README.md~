@@ -11,7 +11,7 @@ Check out the live demo of the application here: [Tech Blog
 Live](https://tech-blog-mvc-50aa2535b133.herokuapp.com/login)
 
 Vision of the Application:
-![Screenshot](public/img/screenshot_tech_blog_mvc.png)
+![Screenshot](public/img/screenshot_tech_blog.png)
 
 ## Features
 
