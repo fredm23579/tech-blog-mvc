@@ -10,7 +10,7 @@
   },
   "keywords": [],
   "author": "Fred Motta",
-  "license": "GNU",
+  "license": "MIT",
   "dependencies": {
     "bcrypt": "^5.1.0",
     "connect-session-sequelize": "^7.1.7",
