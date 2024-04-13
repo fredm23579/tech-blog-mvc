@@ -7,8 +7,8 @@ tech blogging experience.
 
 ## Live Demo
 
-Check out the live demo of the application here: [Tech Blog
-Live](https://tech-blog-mvc-50aa2535b133.herokuapp.com/login)
+Check out the live demo of the application on Heroku here: [Tech Blog
+Live](https://tech-blog-mvc-express-8bd9dcae84c7.herokuapp.com/)
 
 Live screenshot of the Application:
 ![Screenshot](./public/img/Screenshot_tech_blog.png)
