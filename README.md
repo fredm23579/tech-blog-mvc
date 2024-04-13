@@ -158,7 +158,67 @@ To create a new post, navigate to the `/posts` route in your browser. You'll see
 5. Viewing Posts
 -----------------
 
-To view all the posts, navigate to the `/posts` route in your browser. You'll see
+To view all the posts, navigate to the `/posts` route in your browser.
+
+---
+## Live Demo
+
+Check out the live demo of the application here: [Travel Blog Live](https://tech-blog-mvc-express-8bd9dcae84c7.herokuapp.com/)
+
+Vision of the Application: ![Screenshot](public/img/Screenshot_tech_blog.png)
+
+## Features
+
+- **User Authentication**: Users can sign up for an account and log in to access personalized features.
+- **Blog Posting**: Logged-in users can create, edit, and delete their own blog posts.
+- **Comments**: Users can add comments to blog posts, fostering community interaction.
+- **Responsive Design**: A clean and responsive user interface, adapting to various screen sizes and devices.
+
+## Technologies Used
+
+- **Node.js**: A JavaScript runtime built on Chrome's V8 JavaScript engine.
+- **Express.js**: A web application framework for Node.js.
+- **Sequelize**: A promise-based Node.js ORM for Postgres, MySQL, MariaDB, SQLite, and Microsoft SQL Server.
+- **Handlebars.js**: A minimal templating engine.
+- **MySQL**: Popular database.
+- **dotenv**: Package to manage environment variables.
+- **connect-session-sequelize**: Package that allows a session to persist using cookies.
+
+## Installation
+
+To run this application locally, you'll need Node.js and a MySQL database set up on your machine.
+
+1. Clone the repository: ```git clone```
+
+2. Install the dependencies: ```npm i```
+
+3. Create a `.env` file in the root directory with the following contents:
+```bash
+DB_NAME='your_database_name'
+DB_USER='your_username'
+DB_PASSWORD='your_password'
+```
+4. Run the ```schema.sql``` in your MySQL database to create the necessary database.
+
+5. Start the server: ```node server.js```
+
+6. Visit ```http://localhost:3000``` in your local browser.
+
+## Contributing
+
+Contributions to the Tech Blog project are welcome!
+
+1. Fork the repository.
+2. Create a new branch for your feature (```git checkout -b feature/AmazingFeature```).
+3. Commit your changes (```git commit -m 'Add some AmazingFeature'```).
+4. Push to the branch (```git push origin feature/AmazingFeature```).
+5. Open a pull request.
+
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
+© 2024 Tech Blog by [Fred Motta](https://github.com/fredm23579)
