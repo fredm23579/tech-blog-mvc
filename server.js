@@ -47,7 +47,7 @@ app.use(routes); // routes for server and client side files (default is ./contro
 
 app.use((req, res, next) => { // middleware for checking if user is logged in or authenticated via session store (https://expressjs.com/en/guide/behind-proxies.html)
   // List of paths that do not require authentication (https://expressjs.com/en/guide/behind-proxies.html)
-  const authFreePaths = ['/login', '/signup', '/logout', '/css/', '/js/']; // paths that do not require authentication (https://expressjs.com/en/guide/behind-proxies.html)
+  const authFreePaths = ['/login', '/signup', '/logout', '/css/', '/js/', /img/, /public/]; // paths that do not require authentication (https://expressjs.com/en/guide/behind-proxies.html)
   if (!req.session.userId && !authFreePaths.some(path => req.path.startsWith(path))) { // if user is not logged in and path is not in authFreePaths list then redirect to login
     return res.redirect('/login'); // redirect to login page (https://expressjs.com/en/guide/behind-proxies.html)
   }
